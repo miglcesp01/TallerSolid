@@ -1,12 +1,6 @@
-package Modulos;
+package ModulosCorreccion;
 
-public class Notificacion {
-    private int tipoNotificacion;
-    public void notificar(Pago pago){
-        if(tipoNotificacion==1){
-            //enviarMail
-        }else{
-            //enviarSms
-        }
-    }
+public interface Notificacion {
+
+    public void notificar();
 }

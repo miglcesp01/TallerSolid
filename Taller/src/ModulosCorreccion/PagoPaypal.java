@@ -1,7 +1,7 @@
 
-package Modulos;
+package ModulosCorreccion;
 
-public class PagoPaypal extends Pago{
+public class PagoPaypal implements Pago{
     private boolean loggedIn;
     @Override
     public void realizarCobro(double monto){

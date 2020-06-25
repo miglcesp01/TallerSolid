@@ -6,7 +6,7 @@ public class PagoPaypal implements Pago{
     @Override
     public void realizarCobro(double monto){
         if (!loggedIn){
-            return;
+            loggedIn = true;
         }
         //cargar el monto de compra al medio de pago
     }
